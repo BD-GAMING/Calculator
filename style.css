@@ -7,7 +7,6 @@ button{
   border: none;
   background-color: #4d4d4d;
   color: white;
-  transition:background-color 1s ease; 
 }
 button:hover{
   background-color: #666666;
