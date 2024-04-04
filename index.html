@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculator</title>
+  <link rel="icon" href="calculator.ico">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="calculator">
+    <input id="display" readonly>
+    <div id="keys">
+      <button onclick="clicktodisplay('7')">7</button>
+      <button onclick="clicktodisplay('8')">8</button>
+      <button onclick="clicktodisplay('9')">9</button>
+      <button onclick="clicktoclear('C')" id="action-keys">C</button>
+      <button onclick="clicktodisplay('4')">4</button>
+      <button onclick="clicktodisplay('5')">5</button>
+      <button onclick="clicktodisplay('6')">6</button>
+      <button onclick="clicktodisplay('*')" id="action-keys">*</button>
+      <button onclick="clicktodisplay('1')">1</button>
+      <button onclick="clicktodisplay('2')">2</button>
+      <button onclick="clicktodisplay('3')">3</button>
+      <button onclick="clicktodisplay('-')" id="action-keys">-</button>
+      <button onclick="clicktodisplay('0')">0</button>
+      <button onclick="clicktodisplay('.')">.</button>
+      <button onclick="calculate('=')" id="action-keys">=</button>
+      <button onclick="clicktodisplay('+')" id="action-keys">+</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
